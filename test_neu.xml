@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><Studentendaten>
+    <Name>
+        <Nachname>Maier</Nachname>
+        <Vorname>Otto</Vorname>
+        <Anrede>Herr</Anrede>
+    </Name>
+    <MatrikelNr>98765432</MatrikelNr>
+    <Anschrift>
+        <Strasse>Musterstr</Strasse>
+        <HausNr>14</HausNr>
+        <PLZ>04159</PLZ>
+        <Ort>Leipzig</Ort>
+    </Anschrift>
+    <Kontodaten>
+        <Kontoinhaber>Max Mustermann</Kontoinhaber>
+        <KontoNr>000000</KontoNr>
+        <BLZ>0000000</BLZ>
+    </Kontodaten>
+    <Leistungsnachweis><Kurs>31251</Kurs><Datum>23.03.2013</Datum><Note>2,0</Note><Gesamtpunkte>80</Gesamtpunkte><AnzVersuche>1</AnzVersuche></Leistungsnachweis><Leistungsnachweis>
+        <Kurs>01770</Kurs>
+        <Punkte>89</Punkte>
+        <Gesamtpunkte>100</Gesamtpunkte>
+        <Datum>9.5.2015</Datum>
+        <AnzVersuche>1</AnzVersuche>
+    </Leistungsnachweis>
+    <schriftlArbeit Art="Bachelorarbeit">
+        <Thema>XML Weiterentwicklung</Thema>
+        <Note>2,4</Note>
+        <Abgabedatum>9.5.2016</Abgabedatum>
+    </schriftlArbeit>
+</Studentendaten>

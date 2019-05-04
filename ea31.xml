@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!DOCTYPE Studentendaten [
+<!ELEMENT Studentendaten (Name, MatrikelNr, Anschrift, Lieferanschrift?, Kontodaten,
+ Leistungsnachweis*, schriftlArbeit*, Anmerkung?)>
+<!ELEMENT Name (Nachname, Vorname, Anrede)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Anrede (#PCDATA)>
+<!ELEMENT MatrikelNr (#PCDATA)>
+<!ELEMENT Anschrift (Strasse, HausNr, PLZ, Ort)>
+<!ELEMENT Strasse (#PCDATA)>
+<!ELEMENT HausNr (#PCDATA)>
+<!ELEMENT PLZ (#PCDATA)>
+<!ELEMENT Ort (#PCDATA)>
+<!ELEMENT Lieferanschrift (Strasse, HausNr, PLZ, Ort)>
+<!ELEMENT Kontodaten (Kontoinhaber?, KontoNr, BLZ)>
+<!ELEMENT Kontoinhaber (#PCDATA)>
+<!ELEMENT KontoNr (#PCDATA)>
+<!ELEMENT BLZ (#PCDATA)>
+<!ELEMENT Leistungsnachweis (Kurs, (Note | (Punkte, Gesamtpunkte)), Datum, AnzVersuche?)>
+<!ELEMENT Kurs (#PCDATA)>
+<!ELEMENT Note (#PCDATA)>
+<!ELEMENT Punkte (#PCDATA)>
+<!ELEMENT Gesamtpunkte (#PCDATA)>
+<!ELEMENT Datum (#PCDATA)>
+<!ELEMENT AnzVersuche (#PCDATA)>
+<!ELEMENT schriftlArbeit (Thema, Note, Betreuer*, Abgabedatum)>
+<!ATTLIST schriftlArbeit Art (Diplomarbeit | Seminararbeit | Bachelorarbeit | Masterarbeit | Dissertation) #REQUIRED>
+<!ELEMENT Thema (#PCDATA)>
+<!ELEMENT Betreuer (#PCDATA)>
+<!ELEMENT Abgabedatum (#PCDATA)>
+<!ELEMENT Anmerkung (#PCDATA)>
+]><Studentendaten>
+    <Name>
+        <Nachname>Neyer</Nachname>
+        <Vorname>David</Vorname>
+        <Anrede>Herr</Anrede>
+    </Name>
+    <MatrikelNr>8129070</MatrikelNr>
+    <Anschrift>
+        <Strasse>otto-Raupp Str.</Strasse>
+        <HausNr>6</HausNr>
+        <PLZ>79312</PLZ>
+        <Ort>Emmendingen</Ort>
+    </Anschrift>
+    <Kontodaten>
+        <Kontoinhaber>David Neyer</Kontoinhaber>
+        <KontoNr>0000000000</KontoNr>
+        <BLZ>000000000</BLZ>
+    </Kontodaten>
+    <Leistungsnachweis>
+        <Kurs>01770</Kurs>
+        <Punkte>69</Punkte>
+        <Gesamtpunkte>100</Gesamtpunkte>
+        <Datum>12.11.2018</Datum>
+        <AnzVersuche>1</AnzVersuche>
+    </Leistungsnachweis>
+    <schriftlArbeit Art="Bachelorarbeit">
+        <Thema>Aktienmarktanalyse</Thema>
+        <Note>1,2</Note>
+        <Abgabedatum>01.09.2017</Abgabedatum>
+    </schriftlArbeit>
+</Studentendaten>
